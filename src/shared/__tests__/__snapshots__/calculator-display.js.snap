@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders calculator display 1`] = `
+<div>
+  <div
+    class="css-lq9ahq-calculator-display--CalculatorDisplay"
+  >
+    <div
+      class="autoScalingText"
+      data-testid="total"
+      style="transform: scale(1,1);"
+    >
+      3
+    </div>
+  </div>
+</div>
+`;
