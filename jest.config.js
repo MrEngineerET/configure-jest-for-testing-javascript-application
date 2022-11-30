@@ -7,4 +7,5 @@ module.exports = {
     '\\.+module\\.css$': 'identity-obj-proxy',
     '\\.+css$': require.resolve('./test/mock-style.js'),
   },
+  setupFilesAfterEnv: ['@testing-library/jest-dom'],
 }
